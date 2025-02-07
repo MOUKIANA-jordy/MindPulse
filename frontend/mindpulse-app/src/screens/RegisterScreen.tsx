@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react';
 import { View, TextInput, Button, Text, StyleSheet } from 'react-native';
-import { AuthContext } from '@/context/AuthContext'; // Utiliser le contexte d'authentification
+import { AuthContext } from '../context/AuthContext'; // Utiliser le contexte d'authentification
 
 const RegisterScreen = ({ navigation }) => {
   const { register } = useContext(AuthContext); // Utilisation de la fonction d'inscription depuis AuthContext

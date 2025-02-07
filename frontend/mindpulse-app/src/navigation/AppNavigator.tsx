@@ -1,20 +1,15 @@
 import React, { useContext } from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import { AuthContext } from '@/context/AuthContext'; // Importer le contexte d'authentification
-import HomeScreen from '@/screens/HomeScreen'; // Écran d'accueil
-import LoginScreen from '@/screens/LoginScreen'; // Écran de connexion
-import RegisterScreen from '@/screens/RegisterScreen'; // Écran d'inscription
-
-// Importer les écrans
-import HomeScreen from '@/screens/HomeScreen';
-import DashboardScreen from '@/screens/DashboardScreen';
-import JournalingScreen from '@/screens/JournalingScreen';
-import ResourcesScreen from '@/screens/ResourcesScreen';
-import ProfileScreen from '@/screens/ProfileScreen';
-import CommunityScreen from '@/screens/CommunityScreen';
-import LoginScreen from '@/screens/LoginScreen';
-import RegisterScreen from '@/screens/RegisterScreen';
+import { AuthContext } from '../context/AuthContext'; // Importer le contexte d'authentification
+import HomeScreen from '../screens/HomeScreen'; // Écran d'accueil
+import LoginScreen from '../screens/LoginScreen'; // Écran de connexion
+import RegisterScreen from '../screens/RegisterScreen'; // Écran d'inscription
+import DashboardScreen from '../screens/DashboardScreen';
+import JournalingScreen from '../screens/JournalingScreen'; // Ecran du journal
+import ResourcesScreen from '../screens/ResourcesScreen'; // Ecran des ressources
+import ProfileScreen from '../screens/ProfileScreen'; // Ecran de profil
+import CommunityScreen from '../screens/CommunityScreen'; // Ecran communautaire
 
 const Stack = createStackNavigator();
 

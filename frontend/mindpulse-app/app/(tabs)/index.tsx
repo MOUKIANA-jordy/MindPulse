@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import { AuthProvider, AuthContext } from '@/context/AuthContext'; // Assurez-vous que vous avez créé ce contexte
+import { AuthProvider, AuthContext } from '../../src/context/AuthContext'; // Assurez-vous que vous avez créé ce contexte
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import HomeScreen from '@/screens/HomeScreen'; // Page d'accueil
-import LoginScreen from '@/screens/LoginScreen'; // Page de login
-import RegisterScreen from '@/screens/RegisterScreen'; // Page d'inscription
+import HomeScreen from '../../src/screens/HomeScreen'; // Page d'accueil
+import LoginScreen from '../../src/screens/LoginScreen'; // Page de login
+import RegisterScreen from '../../src/screens/RegisterScreen'; // Page d'inscription
 
 // Créer un StackNavigator
 const Stack = createStackNavigator();
